@@ -8,7 +8,7 @@
     >
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
-       <md-icon>dashboard</md-icon>
+        <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
       </sidebar-link>
       <sidebar-link to="/user">
@@ -35,7 +35,6 @@
         <md-icon>notifications</md-icon>
         <p>Notifications</p>
       </sidebar-link>
-      
     </side-bar>
 
     <div class="main-panel">

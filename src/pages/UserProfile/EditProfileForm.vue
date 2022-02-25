@@ -8,7 +8,6 @@
 
       <md-card-content>
         <div class="md-layout">
-          
           <div class="md-layout-item md-small-size-100 md-size-50">
             <md-field>
               <label>First Name</label>
@@ -31,21 +30,22 @@
             <md-field>
               <label>Action</label>
               <md-select v-model="action" name="action" id="action">
-              <md-option value="Borrow">ยืม</md-option>
-              <md-option value="Return">คืน</md-option>
-              
-          </md-select>
+                <md-option value="Borrow">ยืม</md-option>
+                <md-option value="Return">คืน</md-option>
+              </md-select>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
               <label>Category</label>
-                  <md-select v-model="category" name="category" id="category">
-                  <md-option value="Computer">Computer</md-option>
-                  <md-option value="Projector">Projector</md-option>
-                  <md-option value="Networking Devices">Networking Devices</md-option>
-                  <md-option value="Cable">Cable</md-option>
-                </md-select>
+              <md-select v-model="category" name="category" id="category">
+                <md-option value="Computer">Computer</md-option>
+                <md-option value="Projector">Projector</md-option>
+                <md-option value="Networking Devices"
+                  >Networking Devices</md-option
+                >
+                <md-option value="Cable">Cable</md-option>
+              </md-select>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
@@ -54,7 +54,7 @@
               <md-input v-model="country" type="text"></md-input>
             </md-field>
           </div>
-           <div>
+          <div>
             <md-datepicker v-model="selectedDate">
               <label>Select date</label>
             </md-datepicker>
@@ -75,7 +75,6 @@ export default {
       type: String,
       default: "",
     },
-  
   },
   data() {
     return {
@@ -86,7 +85,6 @@ export default {
       category: null,
       assets: null,
       selectedDate: null,
-      
     };
   },
 };

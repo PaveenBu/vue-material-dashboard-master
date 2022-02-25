@@ -1,7 +1,5 @@
 <template>
   <md-card class="md-card-profile">
-   
-
     <md-card-content>
       <h4 class="card-title">แบบฟอร์มการ ยืม/คืน ทรัพย์สินบริษัท</h4>
       <p class="card-description">
